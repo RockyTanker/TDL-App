@@ -30,11 +30,58 @@ body {
     font-family: "Gontserrat Regular";
     background-image: url(assets/other/DifficultyListBG.png);
     background-size: cover;
+
+    background-color: #252525;
+    margin: 0%;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    color: white;
 }
 
 body html {
   height: 100%;
 }
+
+/* imported from styles.css */
+/* Header */
+.header {
+    position: absolute;
+    display: block;
+
+    height: 10vh;
+    width: 100%;
+
+    z-index: 10000;
+    background-image: linear-gradient(#00000080, #00000000);
+}
+
+.headerBtn {
+    padding: 1vh 1vw 1vh 1vw;
+
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: white;
+
+    font-family: 'Gen Shin Gothic';
+    font-size: 1.2rem;
+
+    transition: ease-in 200ms;
+    user-select: none;
+}
+
+    .headerBtn:hover {
+
+        background: white;
+        color: black;
+    }
+
+    .headerBtn:active {
+        background: rgb(107, 107, 107);
+        color: black;
+        transition: none;
+    }
 
 footer {
     width: 100%;
