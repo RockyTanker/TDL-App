@@ -1,5 +1,5 @@
 // Initialization
-const link = "https://raw.githubusercontent.com/RockyTanker/TDL-App/refs/heads/main/Main%20List"
+const link = "https://raw.githubusercontent.com/Ethan76167/TRIA.OS-Difficulty-List/refs/heads/main/Main%20List"
 var result, fetched
 var listArray = []
 
@@ -194,32 +194,3 @@ addEventListener("resize", function() {
         }
     }
 })
-
-// Check scroll even
-/*
-
-var lastObject = document.querySelector('#lastBulletin');
-var hideBulletinOnScroll = false
-var savePosition
-
-window.onscroll = function(){
-    //BOTTOM
-    if(lastObject.getBoundingClientRect().bottom <= 0){
-        document.querySelector("#scrollers").querySelector("#bulletin").style.display = "none"
-
-        if (hideBulletinOnScroll == false) {
-            savePosition = window.scrollY;
-            hideBulletinOnScroll = true
-        }
-    }
-    
-    if (savePosition > window.scrollY) {
-        document.querySelector("#scrollers").querySelector("#bulletin").style.display = "block"
-        document.querySelector("#scrollers").querySelector("#listScroller").style.width = "100%"
-        document.querySelector("#scrollers").querySelector("#listScroller").style.transition = "ease-out 500ms"
-        
-        hideBulletinOnScroll = false
-    }
-}
-    
-*/
